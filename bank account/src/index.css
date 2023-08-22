@@ -1,0 +1,49 @@
+body{
+  color: black;
+  font-weight: 100;
+  background-image: url("./assets/images/ATM_Azul.png");
+  backdrop-filter: blur(px);
+}
+
+.green-text{
+  color: rgb(58, 123, 58);
+}
+
+.red-text{
+  color: rgb(151, 43, 43);
+}
+
+#form{
+  border: solid 1px white;
+  padding: 20px;
+  border-radius: 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(5px);
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.85); /* Color de fondo semi-transparente para resaltar el formulario */
+  margin: 20px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  align-items: center;
+  align-content: center;
+}
+
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#welcome, #total, div{
+  text-align: center;
+}
+
+select, label{
+  margin-bottom: 20px;
+}
+
+.mode-select{
+  margin-left: 5px;
+}
